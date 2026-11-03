@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล | วิทยาลัยสารพัดช่างบรรหาร-แจ่มใส</title>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1d4ed8',
+                        secondary: '#9333ea',
+                    },
+                    fontFamily: {
+                        prompt: ['Prompt', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Prompt', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-600 text-white p-2 rounded-lg shadow">
+                    <i class="fa-solid fa-laptop-code text-2xl"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg text-blue-900 leading-tight">เทคโนโลยีธุรกิจดิจิทัล</h1>
+                    <p class="text-xs text-gray-500">วิทยาลัยสารพัดช่างบรรหาร-แจ่มใส</p>
+                </div>
+            </div>
+            <!-- Desktop Menu -->
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="text-blue-600 hover:text-blue-800 transition">หน้าแรก</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition">เกี่ยวกับเรา</a>
+                <a href="#curriculum" class="text-gray-600 hover:text-blue-600 transition">หลักสูตร</a>
+                <a href="#activities" class="text-gray-600 hover:text-blue-600 transition">กิจกรรม</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">ติดต่อเรา</a>
+            </nav>
+            <div>
+                <a href="#register" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-full font-medium shadow transition text-sm">สมัครเรียน</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-20 lg:py-32 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
+            <span class="bg-blue-500/30 text-blue-200 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider inline-block mb-4">ยินดีต้อนรับสู่สาขาวิชาชีพยุคใหม่</span>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">สร้างอนาคตทางธุรกิจด้วย <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-300">เทคโนโลยีดิจิทัล</span></h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">เรียนรู้การตลาดออนไลน์ การพัฒนาเว็บไซต์ สื่อดิจิทัล และระบบธุรกิจสมัยใหม่ ตอบโจทย์ตลาดแรงงานยุค AI และ E-commerce</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#curriculum" class="bg-cyan-500 hover:bg-cyan-600 text-gray-900 font-bold px-8 py-3.5 rounded-xl shadow-lg transition">ดูหลักสูตรการศึกษา</a>
+                <a href="#contact" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 font-medium px-8 py-3.5 rounded-xl transition">ติดต่อสอบถาม</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">เกี่ยวกับสาขาวิชา</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2 mb-6">ทักษะที่ตลาดต้องการ ผสมผสานเทคโนโลยีและธุรกิจเข้าด้วยกัน</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล วิทยาลัยสารพัดช่างบรรหาร-แจ่มใส มุ่งเน้นการผลิตและพัฒนากำลังคนให้มีความรู้ความสามารถด้านคอมพิวเตอร์ธุรกิจ การจัดการตลาดดิจิทัล การสร้างกราฟิก และการบริหารระบบสารสนเทศในองค์กรธุรกิจยุคใหม่</p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-blue-50 p-4 rounded-xl border border-blue-100">
+                        <div class="text-blue-600 font-bold text-2xl mb-1">100%</div>
+                        <div class="text-sm text-gray-600">เน้นปฏิบัติจริง พร้อมทำงาน</div>
+                    </div>
+                    <div class="bg-purple-50 p-4 rounded-xl border border-purple-100">
+                        <div class="text-purple-600 font-bold text-2xl mb-1">AEC / Digital</div>
+                        <div class="text-sm text-gray-600">สอดคล้องกับยุคเศรษฐกิจดิจิทัล</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gradient-to-tr from-blue-600 to-indigo-700 p-8 rounded-3xl text-white shadow-xl">
+                <h3 class="text-2xl font-bold mb-6">จุดเด่นของสาขาวิชา</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start space-x-3">
+                        <i class="fa-solid fa-circle-check text-cyan-300 mt-1"></i>
+                        <div><strong class="block">อาจารย์ผู้เชี่ยวชาญ</strong>ดูแลอย่างใกล้ชิด เป็นกันเอง และให้คำปรึกษาตลอดหลักสูตร</div>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <i class="fa-solid fa-circle-check text-cyan-300 mt-1"></i>
+                        <div><strong class="block">ห้องปฏิบัติการทันสมัย</strong>พร้อมคอมพิวเตอร์และเครื่องมืออุปกรณ์ครบครัน</div>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <i class="fa-solid fa-circle-check text-cyan-300 mt-1"></i>
+                        <div><strong class="block">โอกาสร่วมงานกับสถานประกอบการ</strong>ผ่านโครงการฝึกงานและทวิภาคี</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section id="curriculum" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4 text-center mb-12">
+            <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">หลักสูตรที่เปิดสอน</span>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">เลือกเส้นทางความสำเร็จของคุณ</h2>
+        </div>
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-2xl shadow-md p-8 border border-gray-200 hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <div class="bg-blue-100 text-blue-600 w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">ประกาศนียบัตรวิชาชีพ (ปวช.)</h3>
+                    <p class="text-gray-600 mb-6">สำหรับผู้จบการศึกษา ม.3 หรือเทียบเท่า เน้นปูพื้นฐานทักษะคอมพิวเตอร์ กราฟิก และงานธุรกิจดิจิทัลขั้นพื้นฐานเพื่อต่อยอดการทำงานหรือศึกษาต่อระดับสูงขึ้น</p>
+                </div>
+                <ul class="space-y-2 text-sm text-gray-700 border-t pt-4 border-gray-100">
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> ระยะเวลาเรียน 3 ปี</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> เรียนรู้โปรแกรมสำนักงานและการสร้างสื่อดิจิทัล</li>
+                </ul>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white rounded-2xl shadow-md p-8 border border-gray-200 hover:shadow-xl transition flex flex-col justify-between">
+                <div>
+                    <div class="bg-purple-100 text-purple-600 w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.)</h3>
+                    <p class="text-gray-600 mb-6">สำหรับผู้จบ ปวช. หรือ ม.6 เน้นเจาะลึกการตลาดออนไลน์ การจัดการฐานข้อมูล การพัฒนาเว็บไซต์ธุรกิจ และระบบสารสนเทศเพื่อการจัดการ</p>
+                </div>
+                <ul class="space-y-2 text-sm text-gray-700 border-t pt-4 border-gray-100">
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> ระยะเวลาเรียน 2 ปี</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> เน้นประสบการณ์วิชาชีพและการฝึกงานจริง</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities / Gallery Section -->
+    <section id="activities" class="py-20 bg-white">
+        <div class="container mx-auto px-4 text-center mb-12">
+            <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">บรรยากาศและการเรียนการสอน</span>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mt-2">กิจกรรมและห้องปฏิบัติการ</h2>
+        </div>
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="rounded-2xl overflow-hidden shadow-lg bg-gray-100">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80" alt="Lab" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold text-lg mb-2 text-gray-900">ห้องปฏิบัติการคอมพิวเตอร์</h4>
+                    <p class="text-sm text-gray-600">เครื่องคอมพิวเตอร์สเปคสูง พร้อมใช้งานโปรแกรมกราฟิกและเขียนโปรแกรม</p>
+                </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-lg bg-gray-100">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Work" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold text-lg mb-2 text-gray-900">การเรียนรู้แบบ Project-Based</h4>
+                    <p class="text-sm text-gray-600">ทำงานร่วมกันเป็นทีม คิดค้นโครงงานและโซลูชันทางธุรกิจจริง</p>
+                </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-lg bg-gray-100">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Activity" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="font-bold text-lg mb-2 text-gray-900">กิจกรรมเสริมทักษะวิชาชีพ</h4>
+                    <p class="text-sm text-gray-600">อบรมเสริมความรู้พิเศษจากผู้เชี่ยวชาญในวงการดิจิทัลและธุรกิจ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="py-20 bg-blue-900 text-white text-center">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">สนใจศึกษาต่อในสาขาวิชาเทคโนโลยีธุรกิจดิจิทัล?</h2>
+            <p class="text-gray-300 mb-8">มาร่วมเป็นส่วนหนึ่งของครอบครัววิทยาลัยสารพัดช่างบรรหาร-แจ่มใส สมัครเรียนได้ง่ายๆ ผ่านช่องทางออนไลน์หรือติดต่อวิทยาลัยโดยตรง</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://www.facebook.com" target="_blank" class="bg-cyan-500 hover:bg-cyan-600 text-gray-900 font-bold px-8 py-3.5 rounded-xl shadow-lg transition"><i class="fa-brands fa-facebook mr-2"></i> ติดต่อผ่านเพจวิทยาลัย</a>
+                <a href="#contact" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 font-medium px-8 py-3.5 rounded-xl transition">ข้อมูลการติดต่อ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">วิทยาลัยสารพัดช่างบรรหาร-แจ่มใส</h3>
+                <p class="text-sm leading-relaxed mb-4">สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล มุ่งเน้นผลิตบัณฑิตสายอาชีพที่มีคุณภาพ ทันสมัย และตอบสนองความต้องการของสังคมยุคดิจิทัล</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">ลิงก์ด่วน</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#home" class="hover:text-white transition">หน้าแรก</a></li>
+                    <li><a href="#about" class="hover:text-white transition">เกี่ยวกับเรา</a></li>
+                    <li><a href="#curriculum" class="hover:text-white transition">หลักสูตร</a></li>
+                    <li><a href="#activities" class="hover:text-white transition">กิจกรรม</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-bold text-lg mb-4">ติดต่อเรา</h3>
+                <p class="text-sm mb-2"><i class="fa-solid fa-location-dot mr-2 text-cyan-400"></i> อ.เมือง จ.สุพรรณบุรี (วิทยาลัยสารพัดช่างบรรหาร-แจ่มใส)</p>
+                <p class="text-sm mb-2"><i class="fa-solid fa-phone mr-2 text-cyan-400"></i> โทรศัพท์ติดต่อฝ่ายadmission ของวิทยาลัย</p>
+                <p class="text-sm"><i class="fa-solid fa-envelope mr-2 text-cyan-400"></i> contact@bsjvc.ac.th</p>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 text-center text-xs text-gray-500 border-t border-gray-800 pt-6">
+            &copy; 2026 สาขาวิชาเทคโนโลยีธุรกิจดิจิทัล วิทยาลัยสารพัดช่างบรรหาร-แจ่มใส. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
